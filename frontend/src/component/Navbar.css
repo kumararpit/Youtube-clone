@@ -1,0 +1,67 @@
+.header{
+    margin: 0;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+}
+.menuicon{
+    color: #606060;
+}
+.header_logo{
+    height: 15px;
+    object-fit: contain;
+    /* padding-left: 8px; */
+}
+.Navleft{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+.Navleft img{
+    margin-left:1rem ;
+}
+.Navcenter{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 40px;
+}
+.Navcenter_left{
+    display: flex;
+    align-items: center;
+  flex: 1;
+  border: 1px solid #cccccc;
+}
+.Navcenter_left>input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 0 0 5px;
+}
+.searchicon{
+    border-left: 1px solid gray;
+    width: 50px !important;
+    color: #333333;
+    background-color: #fafafa;
+}
+.Navcenter_right{
+    display: flex;
+    align-items: center;
+    color: #606060;
+}
+.micicon{
+    padding-left: 1rem;
+    
+}
+.Navright{
+    display: flex;
+    align-items: center;
+}
+.header_icons{
+    margin-right: 1.5rem;
+    color:#606060;
+}

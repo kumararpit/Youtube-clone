@@ -1,0 +1,5 @@
+.mainpart{
+    flex: 0.85;
+    border-top: 1px solid #C6C6C6;
+    display: flex;
+}
