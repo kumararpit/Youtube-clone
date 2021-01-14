@@ -1,17 +1,10 @@
 import React from 'react'
 import Tags from './Tags'
 import "./Hashtags.css"
-function Hashtags(){
+function Hashtags(Props){
     return(
      <div className="hashtags">
-         <Tags />
-         <Tags />
-         <Tags />
-         <Tags />
-         <Tags />
-         <Tags />
-         <Tags />
-         <Tags />
+         <Tags title="javascrpit" />
      </div>
     );
 }

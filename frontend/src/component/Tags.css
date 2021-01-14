@@ -1,3 +1,15 @@
 .tags{
-    display: inline-block;
+    display: flex;
+    color: #606060;
+    /* background-color:red; */
+    height: 25px;
+    margin: 12px 12px 12px 0;
+    padding: 0 12px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+Button{
+    font-size: 14px !important;
+    background-color: rgb(204, 198, 198) !important;
+    border-radius:12px !important;
 }

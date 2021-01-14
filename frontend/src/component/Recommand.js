@@ -5,8 +5,7 @@ function Recommand(){
    return(
        <div className="mainpart">
           <Hashtags className="hashtags" />
-          <hr/>
-          {/* <Recommand />  */}
+          <Recommand /> 
        </div>
    );
 }

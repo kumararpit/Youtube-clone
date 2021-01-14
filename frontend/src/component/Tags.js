@@ -1,9 +1,10 @@
 import React from 'react'
+import Button from '@material-ui/core/Button';
 import "./Tags.css"
-function Tags(){
+function Tags(Props){
     return(
      <div className="tags">
-         <h3>JavaScript</h3>
+        <Button variant="outlined">{Props.title}</Button>
      </div>
     );
 }
